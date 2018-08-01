@@ -27,5 +27,21 @@ class Solution{
 
         return result;
     }
+/*
+ *static int Birds(int[]ar,int n){
+		int count=0; int sum=0;int temp;
+		for(int i=0; i<n;i++){
+			for(int j=i+1;j<n;j++){
+			if(ar[i] == ar[j]){
+			count++;
+			if(count>sum)
+		    temp = ar[i];
+		    }
+		    }
+		    sum = count;
+		}
+		return temp;
+	}
+*/
 }
 		    
